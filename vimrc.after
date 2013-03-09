@@ -1,1 +1,11 @@
+" Colors
 color solarized
+
+" NERDTree configuration
+let NERDTreeIgnore=['\.pyc$', '\.rbc$', '\~$', '\.DS_Store']
+map <C-n> :NERDTreeToggle<CR>
+let NERDTreeShowBookmarks=1
+let NERDTreeShowHidden=1
+
+" Powerline settings
+let g:Powerline_symbols = 'fancy'
