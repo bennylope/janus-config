@@ -8,10 +8,14 @@ source control.
 First, clone this repository. The location on your system doesn't matter
 so long as you don't plan on moving it after installing.
 
+```bash
+$ git clone git://github.com/bennylope/janus-customizer.git ~/.my-janus
+```
+
 Then run the setup script:
 
 ```bash
-$ ./setup.sh
+$ cd ~/.my-janus && ./setup.sh
 ```
 
 This will create symlinks from `.janus`, `.vimrc.before`, `.vimrc.after`,
