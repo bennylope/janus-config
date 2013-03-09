@@ -9,7 +9,7 @@ for i in $HOME/.janus $HOME/.vimrc.before $HOME/.gvimrc.before $HOME/.vimrc.afte
   fi
 done
 
-ln -s "$INSTALLPATH/janus" "$HOME/.janus"
+ln -s "$INSTALLPATH/plugins" "$HOME/.janus"
 ln -s "$INSTALLPATH/vimrc.before" "$HOME/.vimrc.before"
 ln -s "$INSTALLPATH/gvimrc.before" "$HOME/.gvimrc.before"
 ln -s "$INSTALLPATH/vimrc.after" "$HOME/.vimrc.after"
