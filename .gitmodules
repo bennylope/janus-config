@@ -7,3 +7,6 @@
 [submodule "plugins/powerline"]
 	path = plugins/powerline
 	url = git://github.com/Lokaltog/vim-powerline.git
+[submodule "plugins/python-mode"]
+	path = plugins/python-mode
+	url = git://github.com/klen/python-mode.git
