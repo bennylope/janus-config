@@ -220,12 +220,13 @@ endfunction
 " Define the NERDTree-aware aliases
 call s:DefineCommand("cd", "ChangeDirectory")
 call s:DefineCommand("touch", "Touch")
-call s:DefineCommand("rm", "Remove")
+" Removed DefineCommand for 'rm' because of this error which is silenced by
+" removing this one line.
+" Error detected while processing function <SNR>133_DefineCommand..<SNR>133_FileCommand:
+" line    7:
+" E174: Command already exists: add ! to replace it
+"call s:DefineCommand("rm", "Remove")
 call s:DefineCommand("e", "Edit")
 call s:DefineCommand("mkdir", "Mkdir")
 
-" Include user's local vim config
-if filereadable(expand("~/.gvimrc.local"))
-  source ~/.gvimrc.local
-endif
-
+colorscheme solarized
