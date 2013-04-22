@@ -230,3 +230,5 @@ call s:DefineCommand("e", "Edit")
 call s:DefineCommand("mkdir", "Mkdir")
 
 colorscheme solarized
+
+set guifont=Monaco:h12
