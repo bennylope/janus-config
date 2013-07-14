@@ -10,3 +10,6 @@
 [submodule "plugins/python-mode"]
 	path = plugins/python-mode
 	url = git://github.com/klen/python-mode.git
+[submodule "plugins/jade"]
+	path = plugins/jade
+	url = https://github.com/digitaltoad/vim-jade.git
