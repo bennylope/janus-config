@@ -13,3 +13,6 @@
 [submodule "plugins/jade"]
 	path = plugins/jade
 	url = https://github.com/digitaltoad/vim-jade.git
+[submodule "plugins/jshint2"]
+	path = plugins/jshint2
+	url = https://github.com/Shutnik/jshint2.vim.git
