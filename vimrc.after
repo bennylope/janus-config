@@ -11,6 +11,9 @@ let NERDTreeShowHidden=1
 let g:Powerline_symbols = 'fancy'
 
 
+" Properly format Git commit messages
+au FileType gitcommit set tw=72
+
 " make Python follow PEP8 ( http://www.python.org/dev/peps/pep-0008/ )
 setlocal softtabstop=4
 setlocal tabstop=4
