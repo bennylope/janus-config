@@ -16,3 +16,6 @@
 [submodule "plugins/jshint2"]
 	path = plugins/jshint2
 	url = https://github.com/Shutnik/jshint2.vim.git
+[submodule "plugins/puppet"]
+	path = plugins/puppet
+	url = https://github.com/rodjek/vim-puppet.git
