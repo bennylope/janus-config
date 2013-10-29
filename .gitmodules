@@ -19,3 +19,6 @@
 [submodule "plugins/puppet"]
 	path = plugins/puppet
 	url = https://github.com/rodjek/vim-puppet.git
+[submodule "plugins/tabular"]
+	path = plugins/tabular
+	url = https://github.com/godlygeek/tabular.git
