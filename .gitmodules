@@ -22,3 +22,6 @@
 [submodule "plugins/tabular"]
 	path = plugins/tabular
 	url = https://github.com/godlygeek/tabular.git
+[submodule "plugins/json"]
+	path = plugins/json
+	url = https://github.com/elzr/vim-json.git
