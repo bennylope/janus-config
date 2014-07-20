@@ -25,3 +25,6 @@
 [submodule "plugins/json"]
 	path = plugins/json
 	url = https://github.com/elzr/vim-json.git
+[submodule "plugins/gocode"]
+	path = plugins/gocode
+	url = git@github.com:Blackrush/vim-gocode.git
