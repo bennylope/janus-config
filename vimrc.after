@@ -1,6 +1,13 @@
 " Colors
 color solarized
 
+" Added to try fixing vim coloring in iTerm2
+syntax on
+set background=dark
+let g:solarized_termtrans = 1
+colorscheme solarized
+
+
 " NERDTree configuration
 let NERDTreeIgnore=['\.pyc$', '\.rbc$', '\~$', '\.DS_Store']
 map <C-n> :NERDTreeToggle<CR>
