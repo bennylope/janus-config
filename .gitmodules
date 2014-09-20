@@ -25,6 +25,6 @@
 [submodule "plugins/gocode"]
 	path = plugins/gocode
 	url = git@github.com:Blackrush/vim-gocode.git
-[submodule "plugins/powerline"]
-	path = plugins/powerline
-	url = git@github.com:Lokaltog/powerline.git
+[submodule "plugins/airline"]
+	path = plugins/airline
+	url = https://github.com/bling/vim-airline.git
