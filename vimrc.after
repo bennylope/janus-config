@@ -7,6 +7,11 @@ set background=dark
 let g:solarized_termtrans = 1
 colorscheme solarized
 
+" Mousey mouse
+set mouse=a
+
+" Default to relative line numbering
+set rnu
 
 " NERDTree configuration
 let NERDTreeIgnore=['\.pyc$', '\.rbc$', '\~$', '\.DS_Store']
